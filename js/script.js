@@ -10,6 +10,7 @@ window.addEventListener('load', () => {
 
 const startDraw = () => {
 	isDrawing = true;
+	ctx.beginPath();
 };
 
 const drawing = e => {
