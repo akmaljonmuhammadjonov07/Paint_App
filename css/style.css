@@ -101,7 +101,7 @@ section {
 	background-color: #e5eb0b;
 }
 .colors .option:nth-child(6) {
-	background-image: radial-gradient(red, yellow, green, black, blue);
+	background-image: conic-gradient(red, yellow, green, blue, black);
 }
 .colors .option.selected::before {
 	position: absolute;
