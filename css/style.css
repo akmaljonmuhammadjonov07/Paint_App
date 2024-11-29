@@ -98,7 +98,10 @@ section {
 	background-color: #6dd400;
 }
 .colors .option:nth-child(5) {
-	background-color: #4a98f7;
+	background-color: #e5eb0b;
+}
+.colors .option:nth-child(6) {
+	background-image: radial-gradient(red, yellow, green, black, blue);
 }
 .colors .option.selected::before {
 	position: absolute;
